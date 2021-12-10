@@ -1,0 +1,176 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 07:09:55] "GET /index HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 07:09:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 07:09:55] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\molly\OneDrive\Documents\Uni\Programming term 1 coursework\main.py", line 65, in home
+    flash("HELLO")
+  File "C:\Python38\lib\site-packages\flask\helpers.py", line 391, in flash
+    session["_flashes"] = flashes
+  File "C:\Python38\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 07:10:07] "[35m[1mGET /index?update=07%3A10&two=hello&repeat=repeat&covid-data=covid-data HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\molly\OneDrive\Documents\Uni\Programming term 1 coursework\main.py", line 65, in home
+    flash("HELLO")
+  File "C:\Python38\lib\site-packages\flask\helpers.py", line 391, in flash
+    session["_flashes"] = flashes
+  File "C:\Python38\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 07:11:07] "[35m[1mGET /index?update=07%3A10&two=hello&repeat=repeat&covid-data=covid-data HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:02:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:02:11] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:02:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:02:29] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\molly\OneDrive\Documents\Uni\Programming term 1 coursework\main.py", line 133, in home
+    if updates[i]["data"] == True:
+IndexError: list index out of range
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:02:31] "[35m[1mGET /index?update_item=hello HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:41] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22cumDeathsByPublishDate%22%3A%22cumDeathsByPublishDate%22%2C%22newDeathsByPublishDate%22%3A%22newDeathsByPublishDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesByPublishDateChange%22%3A%22newCasesByPublishDateChange%22%7D&format=json&page=2 HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:53] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:55] "GET /index?update_item=hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:03:55] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:04:00] "GET /index?update=10%3A04&two=hello&repeat=repeat&covid-data=covid-data HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:04:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:04:55] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:05:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:05:56] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:06:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:06:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:07:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:07:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:08:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:08:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:09:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:09:58] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:10:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:10:58] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?q=Covid&q=COVID-19&q=coronavirus&soryBy=popularity&apiKey=04adf1cb9b7a4090a35a7e499d69cda1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:11:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 10:11:59] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
