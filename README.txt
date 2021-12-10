@@ -1,7 +1,6 @@
 This is a file outlining the implementation and use of this project.
 This project uses python, which should be already downloaded onto your computer as a default.
-If you do not already have python downloaded, visit https://www.python.org/downloads/ and 
-download the latest version of python
+If you do not already have python downloaded, visit https://www.python.org/downloads/ and download the latest version of python
 
 
 DOWNLOADING MODULES
