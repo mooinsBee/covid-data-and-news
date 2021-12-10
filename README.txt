@@ -21,7 +21,8 @@ To download a module:
 
 
 DOWNLOADING THE PROJECT
-To download simply download all the given files into the same folder.
+To download simply download all the given files into the same directory.
+Then put the index.html file into a folder called templates in that directory.
 
 
 GETTING AN API KEY
